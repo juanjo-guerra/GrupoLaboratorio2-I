@@ -1,3 +1,5 @@
+//UTILIZAMOS GITFLOW POR COMANDOOOOOS <3
+
 #include <iostream>
 #include <string>
 
@@ -5,7 +7,7 @@ struct Producto {
   int codigo;
   std::string nombre;
   double precio;
-  Producto  *anterior;
+  Producto *anterior;
   Producto *siguiente;
 };
 
